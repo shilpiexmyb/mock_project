@@ -1,0 +1,332 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a{text-decoration: none;}
+
+a:hover{ text-decoration: none;}
+li{
+    list-style: none;
+}
+
+.header{
+    width:100%;
+    height: 100vh;
+    background-image: url(../food/food.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position:relative;
+}
+
+.header:before{
+    content:"";
+    position:absolute;
+    top:0%;
+    bottom:0%;
+    left:0%;
+    right:0%;
+    opacity:.3;
+    z-index:-1;
+
+}
+.navbar:before{
+    content:"";
+    position:absolute;
+    top:0%;
+    bottom:0%;
+    left:0%;
+    right:0%;
+    opacity:.3;
+    z-index:-1;
+
+}
+.nav-item a{
+color:black;  
+font-weight: bold;
+}
+
+.home{
+    color: red;
+    
+}
+.food{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* navbar ends */
+.header-section{
+    width:100%;
+    height:inherit;
+    color:red;
+    text-align:center;
+    position: relative;
+}
+.center-div{
+    width:100%;
+    height: auto;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+.header-buttons a{
+    border: 1px solid red;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding:12px 35px;
+    outline: none;
+    color:red;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.header-buttons a:hover{
+    color:white;
+    background-color:red;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 white;
+}
+.center-div p{
+    font-size: 1.3rem;
+    padding:10px 0 20px 0;
+
+
+}
+.pro{
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.progress_text{
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+/* header ends */
+
+
+
+.extra-div{
+    background:white;
+    border:medium none;
+    padding:20px !important;
+   
+    transition: 0.3s;
+   margin-top: 80px;
+   text-align: center;
+   width: 100px;
+ 
+ 
+  
+   
+    
+}
+
+.header-extra-div{
+    width:20%;height:auto ;
+    margin: 100px 0;
+    text-align: center;
+    margin-left: 90px;
+  
+    
+  
+ 
+}
+
+.extra-div:hover{
+    box-shadow: 0 0 20px 0 red;
+    transform: translateY(-20px);
+   
+}
+.fas {
+    color: red;
+    margin-bottom: 30px;
+}
+.offer{
+    color: red;
+    margin-top: 150px;
+}
+
+
+/* cards ends */
+
+/* .flex{
+    display: flex;
+}
+
+
+.services{
+    margin-top: 100px;
+    margin-left: 290px;
+} */
+
+
+
+
+
+
+
+
+.btn2{
+    background-color: red;
+    color:white;
+    border-radius: 20px;
+    width:600px;
+    height: 40px;
+    padding: 15px;
+    margin-left: 50px;
+}
+
+.btn2:hover{
+    background-color:whitesmoke;
+    color:red; 
+    border:2px solid red;
+}
+.btn2 a{
+    text-decoration: none;
+}
+.card1{
+    color:red;
+    font-weight: bold;
+    margin-left: 70px;
+}
+.party{
+    margin-top: 50px;
+}
+
+.project-work{
+    margin-top: 200px;
+}
+
+.content_project{
+    color: red;
+    font-size: 30px;
+}
+
+.customer{
+    color:red;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.special{
+    text-align: center;
+    color: red;
+    margin-top: 90px;
+}
+
+.happy_c{
+    margin-left: 146px;
+    margin-top: 100px;
+    border: 10px solid red;
+    width: 805px;
+}
+
+.pricing{
+    margin-top: 150px;
+    
+}
+.our_pricing{
+    color:red;
+}
+
+.Installation{
+    margin-top: 100px;
+}
+
+
+.image img{
+    width:800px;
+    height: 500px;
+}
+.para{
+    margin-top: 50px;
+    width: 810px;
+    padding: 60px;
+    font-size: 20px;
+}
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: red;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: red;
+}
+
+.contact_form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 60px;
+}
+.contact{
+    color: red;
+
+    text-align: center;
+    margin-top: 169px;
+}
+
+.footer_nav{
+    background-color: red;
+    margin-top: 150px;
+    width: 100vw;
+    height: 90px;
+    margin-left: -166px;
+}
+
+.footer_links {
+    display: flex;
+}
+.main_link1{
+    margin-left: 600px;
+    
+    margin-top: 35px;
+}
+.main_link2{
+    margin-left: 60px;
+    margin-top: 35px;
+}
+.main_link1 a{
+    text-decoration: none;
+    color:white;
+    font-size: 21px;
+}
+.main_link2 a{
+    text-decoration: none;
+    color:white;
+    font-size: 21px;
+}
+.image_services img{
+width:150px;
+height: 150px;
+border-radius: 80px;
+}
+.our{
+    text-align: center;
+    color:red;
+    margin-top: 150px;
+}
